@@ -90,15 +90,15 @@ export const containerPerfil = styled.div`
 
     @media(max-width: 580px){
         display: flex;
-        margin-left: 35vw;
         border-radius: 50%;
-        height: 40vh;
+        height: 80vh;
+        margin-bottom: 30px;
         margin-left: 2px;
     
 
         @keyframes breath-animation {
         0% { height: 0px; }
-        50% {  height: 335px; opacity: 0.9;}
+        50% {  height: 200px; opacity: 0.9;}
         100% {  height: 0px; opacity: 0.3; }
         }
     }
@@ -110,7 +110,7 @@ export const imagePerfil = styled.img`
 
    @media(max-width: 580px){
         border-radius: 50% 50% 0% 0%;
-        height: 40vh;
+        height: 30vh;
 
     }
 `
@@ -179,7 +179,71 @@ export const h2About = styled.h2`
 
 export const PAbout = styled.p`
     margin-top: 3vh;
+    border-radius: 10px;
     padding: 2rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: bordercolorabout 20S normal  infinite;
+
+    @keyframes bordercolorabout{
+        0%{
+            border: solid yellow 0.5px;
+        }
+        50%{
+            border: solid red 0.5px;
+        }
+
+        100%{
+            border: solid #49F2CD 0.5px;
+        }
+    }
+`
+
+export const h2ability = styled.h2`
+    margin-top: 30px;
+
+    &::after{
+        
+        content: "";
+        width: 70px;
+        height: 3px;
+        background-color: #fca311;
+        position: absolute;
+        display: flex;
+        transition: width 0.5s;
+    }
+
+    &:hover::after{
+        
+    }
+`
+
+export const Pability = styled.p`
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 4vh ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    align-items: center;
+    text-align: center;
+    transition: all 5s;
+
+    &:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    animation-duration: 9s;
+    transition: 5s;
+    animation-iteration-count: infinite;
+    animation-name: ability;
+
+        @keyframes ability{
+        0% {color: yellow;}
+        50% {color: red; }
+        100% {color: #49F2CD;}
+        }
+    }
 `
 
 

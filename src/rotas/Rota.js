@@ -4,6 +4,7 @@ import Props from "./Props"
 
 import Header from "../components/Header"
 import Home from "../components/Home"
+import About from "../components/About"
 
 
 import * as S from "../styled/HeaderStyled"
@@ -25,7 +26,7 @@ const Rota = () => {
                 </S.ContaineHeader>
             <Routes>
                 <Route path='/'  element={<Home />}/>
-                <Route path='/about'/>
+                <Route path='/about' element={<About />}/>
                 <Route path='/works'/>
             </Routes>
             </S.ContainerRota>
