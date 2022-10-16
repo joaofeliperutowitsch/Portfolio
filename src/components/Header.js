@@ -6,7 +6,7 @@ import * as S from "../styled/HeaderStyled"
 const Header = () => {
     return(
         <S.HeaderEmulador>
-            <S.h2Header>Felipe Rutowitsch</S.h2Header>
+            <S.h2Header>Port<span>Folio</span></S.h2Header>
             <S.navHeader>
                 <S.ulHeader>
                     <li>

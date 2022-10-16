@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import fogo from "../image/fogo.gif"
 
 
 export const  ContainerRota = styled.section`
@@ -69,11 +68,10 @@ export const h2Mobile = styled.h2`
     margin-left: 20px;
     text-transform: uppercase;
     display: none;
-        &:hover{
-            background-image: url(${fogo});
-            -webkit-background-clip: text;
-            color: rgba(0,0,0,0);
-        }
+
+    span{
+        color: white;
+    }
 
         @media(max-width: 580px){
         display: inline;
@@ -123,7 +121,6 @@ export const  ContaineHeader = styled.div`
         height: 84.5vh;
         margin-top: 63px;
         margin-left: 20px;
-        opacity: 0.5;
     }
 `
 
@@ -143,12 +140,10 @@ export const h2Header = styled.h2`
     text-transform: uppercase;
     font-size: 2rem;
 
-        &:hover{
-            background-image: url(${fogo});
-            -webkit-background-clip: text;
-            color: rgba(0,0,0,0);
-        }
-
+    span{
+        color: white;
+    }
+    
         @media(max-width: 580px){
         display: none;
     }

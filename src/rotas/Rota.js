@@ -4,6 +4,7 @@ import Props from "./Props"
 
 import Header from "../components/Header"
 import Home from "../components/Home"
+import Woks from '../components/Woks';
 import About from "../components/About"
 
 
@@ -18,7 +19,7 @@ const Rota = () => {
             <S.ContainerRota>
                 <S.ContaineHeader>
                 <Header />
-                <S.h2Mobile>felipe rutowitsch</S.h2Mobile>
+                <S.h2Mobile>Port<span>Folio</span></S.h2Mobile>
                 {open && <Props link1="Home" link2="About" link3="Works"/>}
                 <button onClick={() => { setOpen(!open)}}>
                     {open === true ? "x" : "≡"}
@@ -27,7 +28,7 @@ const Rota = () => {
             <Routes>
                 <Route path='/'  element={<Home />}/>
                 <Route path='/about' element={<About />}/>
-                <Route path='/works'/>
+                <Route path='/works' element={<Woks />}/>
             </Routes>
             </S.ContainerRota>
 

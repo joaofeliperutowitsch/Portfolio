@@ -3,14 +3,18 @@ import React from "react"
 import * as S from "../styled/HomeStyled"
 import imgperfil from "../image/FelipeRutowitsch.png"
 import imgExperiencia from "../image/experiencia.png"
+import Footer from "./Footer.js"
+
+import { GlobalStyle } from "../styled/HomeStyled"
 
 const Main = () => {
     return(
         <S.ContainerHome>
+            <GlobalStyle/>
             <S.banner>
                 <S.textBanner>
                     <h4>Hi, I'm</h4>
-                    <h2>Felipe Rutowitsch</h2>
+                    <h1>Felipe Rutowitsch</h1>
                     <p>Front end developer</p>
                     <button>Linkedin</button>
                 </S.textBanner>
@@ -29,6 +33,7 @@ const Main = () => {
                     <S.Pability>HTML5 CSS3  REACT JAVASCRIPT</S.Pability>
                 </S.textAbout>
             </S.ContainerAbout>
+            <Footer />
         </S.ContainerHome>
     )
 }

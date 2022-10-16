@@ -1,5 +1,13 @@
 import styled from "styled-components";
 import Banner from "../image/banner.jpg"
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+
+body{
+    background-color: #191919;
+}
+`;
 
 export const ContainerHome = styled.main`
     display: flex;
@@ -67,7 +75,7 @@ export const textBanner = styled.div`
         }
     }
 
-    h2{
+    h1{
         opacity: 10;
         color: #fca311;
     }
@@ -119,7 +127,7 @@ export const ContainerAbout = styled.section`
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    background:  rgba(0, 0, 0 , 0.93);
+    background-color: #191919;
 
     @media(max-width: 580px){
         flex-direction: column;
