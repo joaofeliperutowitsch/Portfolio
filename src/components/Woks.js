@@ -2,12 +2,14 @@ import React from "react"
 import * as S from "../styled/WorksStyled.js"
 import Hogwarts from "../image/hogwarts.png"
 import PATV from "../image/PATV.png"
+import { GlobalStyle } from "../styled/WorksStyled"
 
 
 
 const Woks = () => {
     return(
         <S.containerWoks>
+            <GlobalStyle />
             <div>
                 <h2>my <span>works</span></h2>
             </div>

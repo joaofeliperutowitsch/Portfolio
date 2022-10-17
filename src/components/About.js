@@ -5,7 +5,6 @@ import { GlobalStyle } from "../styled/AboutStyled"
 import perfilMexendoComputador from "../image/pessoa-mexendo-computador.jpeg"
 import perfilNoComputador from "../image/pessoa-no-computador.jpeg"
 import perfilSorrindo from "../image/portfoliosorrindo.jpeg"
-import Footer from "./Footer.js"
 
 
 const About = () => {
@@ -44,7 +43,6 @@ Eu tinha tudo isso, e estava mandando muito bem, em meio a pandemia da Covid, as
 Foram momentos incríveis, porém a carga horária era muito puxada  e em 2021 tive que focar nos estudos, então vendi minha empresa de treinos de jogos virtuais.</S.PAboutt>
                 </S.textAbout>
             </S.ContainerAbout>
-            <Footer />
         </S.ContainerAboutt>
     )
 }

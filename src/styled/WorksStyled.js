@@ -1,4 +1,12 @@
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+
+body{
+    background-color: #191919;
+}
+`;
 
 export const containerWoks = styled.section`
 display: flex;

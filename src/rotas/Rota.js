@@ -6,6 +6,7 @@ import Header from "../components/Header"
 import Home from "../components/Home"
 import Woks from '../components/Woks';
 import About from "../components/About"
+import Footer from '../components/Footer';
 
 
 import * as S from "../styled/HeaderStyled"
@@ -31,6 +32,7 @@ const Rota = () => {
                 <Route path='/works' element={<Woks />}/>
             </Routes>
             </S.ContainerRota>
+            <Footer/>
 
         </BrowserRouter>
     )
