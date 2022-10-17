@@ -15,7 +15,7 @@ const Main = () => {
                     <h4>Hi, I'm</h4>
                     <h1>Felipe Rutowitsch</h1>
                     <p>Front end developer</p>
-                    <button>Linkedin</button>
+                    <a href="https://www.linkedin.com/in/feliperutowitsch/"><button>Linkedin</button></a>
                 </S.textBanner>
                 <S.containerPerfil>
                     <S.imagePerfil src={imgperfil} alt=""/>

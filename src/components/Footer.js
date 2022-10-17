@@ -1,10 +1,15 @@
 import React from "react"
 
-import * as S from "../styled/Footer"
+import * as S from "../styled/FooterStyled"
 import emailjs from "@emailjs/browser"
 import iconeTelefone from "../image/icone-telefone.png"
 import iconeLocalizaçao from "../image/icone-localização.png"
 import iconeEmail from "../image/icone-email.png"
+
+
+import iconeInstagram from "../image/icone-instagram.png"
+import iconeLinkedin from "../image/icone-linkedin.png"
+import iconeFacebook from "../image/icone-facebook.png"
 
 
 
@@ -62,10 +67,26 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <S.inputcontact type="submit" className="btn btn-info" value="Enviar mensagem"></S.inputcontact>
+                        <S.inputcontact type="submit" className="btn btn-info" value="submit"></S.inputcontact>
                     </div>
             </S.containerForm>
         </S.containerContact>
+        <S.containerCopyright>
+            <S.containerPlataformas>
+                <figure>
+                    <a href="https://www.instagram.com/feliperutowitsch/"><S.imgPlataforma src={iconeInstagram} alt=""/></a> 
+                </figure>
+                <figure>
+                    <a href="https://www.linkedin.com/in/feliperutowitsch/"><S.imgPlataforma src={iconeLinkedin} alt=""/></a>
+                </figure>
+                <figure>
+                    <a href="https://www.facebook.com/joaofelipe.rutowitsch"><S.imgPlataforma src={iconeFacebook} alt=""/></a> 
+                </figure>
+            </S.containerPlataformas>
+            <S.textCopyright>
+                <p>copyright © Felipe Rutowitsch</p>
+            </S.textCopyright>
+        </S.containerCopyright>
         </S.containerFooter>
     )
 }

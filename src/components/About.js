@@ -6,6 +6,15 @@ import perfilMexendoComputador from "../image/pessoa-mexendo-computador.jpeg"
 import perfilNoComputador from "../image/pessoa-no-computador.jpeg"
 import perfilSorrindo from "../image/portfoliosorrindo.jpeg"
 
+import imgVScode from "../image/Vscode.png"
+import imgGit from "../image/Git.png"
+import imgReact from "../image/React.png"
+import imgJavaScript from "../image/Java.png"
+import imgHTML from "../image/HTML5.png"
+import imgCSS from "../image/CSS3.png"
+
+
+
 
 const About = () => {
     return(
@@ -23,7 +32,35 @@ const About = () => {
             <S.ContainerAbout>
                 <S.textAbout>
                     <S.h2About>Ability</S.h2About>
-                    <S.PAboutt>I'm 16 years old, I'm in my second year of high school. In the moment I am dedicating myself to the area of Web Development. I have always excelled in business, sales, and technology. I love to teach and I work as a team and I always try to work in a more agile way and bring positive results in what I do.</S.PAboutt>
+                    <S.containerAbility>
+                    <figure>
+                        <img src={imgHTML} alt=""/>
+                        <h4>HTML5</h4>
+                    </figure>
+
+                    <figure>
+                        <img src={imgCSS} alt=""/>
+                        <h4>CSS3</h4>
+                    </figure>
+
+                    <figure>
+                        <img src={imgJavaScript} alt=""/>
+                        <h4>JavaScript</h4>
+                    </figure>
+
+                    <figure>
+                        <img src={imgReact} alt=""/>
+                        <h4>React</h4>
+                    </figure>
+                    <figure>
+                        <img src={imgVScode} alt=""/>
+                        <h4>Vscode</h4>
+                    </figure>
+                    <figure>
+                        <img src={imgGit} alt=""/>
+                        <h4>Git/GitHub</h4>
+                    </figure>
+                </S.containerAbility>
                 </S.textAbout>
                 <div>
                     <S.imgAbout src={perfilSorrindo} alt=""/>

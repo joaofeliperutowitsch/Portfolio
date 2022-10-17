@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import Footer from "../components/Footer";
 import fundoFooter from "../image/fundoFooter.png"
 
 export const containerFooter = styled.section`
     background-color: #121212;
     margin-top: 80px;
+    width: 100%;
 `
 
 export const h2Contact = styled.h2`
@@ -84,15 +84,58 @@ export const inputcontact = styled.input`
     font-size: 1.5rem;
     background-color: #191919;
     border-radius: 10px;
-    
     border: solid #fca311 0.5px;
+    @media(max-width: 420px){
+        width: 80vw;
+    }
 `
 
 export const textareaContact = styled.textarea`
     font-size: 1.5rem;
     background-color: #191919;
     border-radius: 10px;
-    
     border: solid #fca311 0.5px;
+
+    @media(max-width: 420px){
+        width: 80vw;
+    }
 `
+
+export const containerCopyright = styled.section`
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+`
+
+export const containerPlataformas = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+`
+
+export const textCopyright = styled.div`
+    font-size: 1.2rem;
+
+    p{
+      
+    }
+`
+
+export const imgPlataforma = styled.img`
+    margin-left: 20px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid #fca311 0.5px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #fca311;
+        transition: 2s;
+       
+            
+    }
+`
+
 

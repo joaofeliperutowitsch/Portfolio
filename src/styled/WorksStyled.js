@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
+import bannerWoks from "../image/banner-woks.jpg"
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -23,22 +24,22 @@ background-color: #191919;
     }
 `
 
-export const containerP = styled.div`
+export const containerProjetos = styled.div`
     display: flex;
-    width: 73%;
-    justify-content: space-between;
+    
+    justify-content: space-around;
     flex-wrap: wrap;
 
-
-
-
+    @media(max-width: 500px){
+        width: 73%;
+    }
 `
 
 export const containerProjeto = styled.section`
     border-radius: 10px;
     margin-top: 60px;
     display: flex;
-    flex-direction: column;
+    
     background-color: #121212;
     width: 400px;
     height: 550px;
@@ -67,6 +68,10 @@ export const textProjeto= styled.section`
         height: 200px;
         background-color: #191919;
         border: solid #fca311 0.5px;
+
+        @media(max-width: 490px){
+            height: 250px;
+        }
     }
 
     div{
@@ -96,18 +101,45 @@ export const textProjeto= styled.section`
     
 `
 
-export const containerEmbreve = styled.div`
-    background-color: #fca311;
-    margin-top: 50%;
-    width: 100%;
-    height: 60px;
+export const containerEmbreve = styled.section`
+    border-radius: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(${bannerWoks});
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    position: relative;
+
+    &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            opacity: 0.95;
+            height: 100%;
+            border-radius: 10px;
+            background-color:  rgba(0, 0, 0 , 0.70);
+        }
 `
 
-export const textEmbreve= styled.h3`
+export const textEmbreve = styled.div`
+    background-color: #fca311;
+    margin-top: 250px;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+`
+
+export const h3Embreve= styled.h3`
     color: white;
     text-align: center;
     margin-top: 5%;
     font-size: 1.3rem;
+    transition: 5s;
 
     &:hover{
         cursor: pointer;
