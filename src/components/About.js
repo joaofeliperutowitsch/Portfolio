@@ -29,43 +29,43 @@ const About = () => {
                     <S.PAboutt>My name is Felipe Rutowitsch, I'm 16 years old, I'm in the second year of high school. My dream is to travel and get to know the world, other cultures and their mysteries… My goal is to work with technology and be an entrepreneur in the sector. I love teaching and teamwork, and I always aim to work faster and more efficiently. Now I'm looking for a job in the front-end developer area, I'm looking for a vacancy in the job market to improve my knowledge more and more, thanks in advance for the opportunity. </S.PAboutt>
                 </S.textAbout>
             </S.ContainerAbout>
-            <S.ContainerAbout>
+            <S.containerAbility>
                 <S.textAbout>
                     <S.h2About>Ability</S.h2About>
-                    <S.containerAbility>
-                    <figure>
+                    <S.containerimgsAbility>
+                    <S.containerImgAbility>
                         <img src={imgHTML} alt=""/>
                         <h4>HTML5</h4>
-                    </figure>
+                    </S.containerImgAbility>
 
-                    <figure>
+                    <S.containerImgAbility>
                         <img src={imgCSS} alt=""/>
                         <h4>CSS3</h4>
-                    </figure>
+                    </S.containerImgAbility>
 
-                    <figure>
+                    <S.containerImgAbility>
                         <img src={imgJavaScript} alt=""/>
                         <h4>JavaScript</h4>
-                    </figure>
+                    </S.containerImgAbility>
 
-                    <figure>
+                    <S.containerImgAbility>
                         <img src={imgReact} alt=""/>
                         <h4>React</h4>
-                    </figure>
-                    <figure>
+                    </S.containerImgAbility>
+                    <S.containerImgAbility>
                         <img src={imgVScode} alt=""/>
                         <h4>Vscode</h4>
-                    </figure>
-                    <figure>
+                    </S.containerImgAbility>
+                    <S.containerImgAbility>
                         <img src={imgGit} alt=""/>
                         <h4>Git/GitHub</h4>
-                    </figure>
-                </S.containerAbility>
+                    </S.containerImgAbility>
+                </S.containerimgsAbility>
                 </S.textAbout>
                 <div>
                     <S.imgAbout src={perfilSorrindo} alt=""/>
                 </div>
-            </S.ContainerAbout>
+            </S.containerAbility>
             <S.ContainerAbout>
                     <div>
                         <S.imgAbout src={perfilMexendoComputador} alt=""/>

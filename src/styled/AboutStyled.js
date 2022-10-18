@@ -33,12 +33,13 @@ export const ContainerAbout = styled.section`
 `
 
 export const imgAbout = styled.img`
-    height: 40vh;
-    width: 20vw;
+    height: 300px;
+    width: 250px;
     border-radius: 50%;
     margin-top: 5vh;
     transform: translateY(0px);
     border: solid #fca311;
+    margin-right: 10px;
 `
 
 export const textAbout = styled.div`
@@ -99,11 +100,33 @@ export const PAboutt = styled.p`
     }
 `
 
-export const containerAbility = styled.div`
+export const containerAbility = styled.section`
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    @media(max-width: 580px){
+        flex-direction: column-reverse;
+        align-items: center;
+        
+
+        img{
+            height: 200px;
+            width: 200px;
+            margin-left: 2vw;
+        }
+    }
+`
+
+export const containerimgsAbility = styled.div`
     display: flex;
     margin-top: 20px;
-    
-    figure{
+    align-items: center;
+    justify-content: center;
+`
+
+export const containerImgAbility = styled.figure`
     background-color: #141414;
     display: flex;
     width: 40%;
@@ -111,11 +134,22 @@ export const containerAbility = styled.div`
     border-radius: 10px;
     margin-top: 10px;
     justify-content: space-around;
-    margin-left: 30px;
+    min-width: 236px;
 
-    img{
-        width: 50px;
+    &:hover{
+        cursor: pointer;
+        transition: 5s;
+        background-color: #fca311;
+        
+        H4{
+            color: #121212;
+            transition: 5.1s;
+        }
     }
+
+    @media(min-width: 500px){
+        margin-left: 30px;
+
     }
 `
 
