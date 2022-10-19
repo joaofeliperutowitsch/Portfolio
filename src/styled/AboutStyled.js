@@ -58,23 +58,41 @@ export const textAbout = styled.div`
             }
         }
 `
-
-export const h2About = styled.h2`
-
+export const h2Presentation = styled.h2`
 
 &::after{
         
         content: "";
-        width: 70px;
+        width: 14%;
         height: 3px;
         background-color: #fca311;
         position: absolute;
         display: flex;
-        transition: width 0.5s;
+        margin-top: 3px;
+        transition: width 2.5s;
     }
-
+    
     &:hover::after{
+        width: 20px;
+    }
+`
+
+export const h2Story = styled.h2`
+
+&::after{
         
+        content: "";
+        width: 10%;
+        height: 3px;
+        background-color: #fca311;
+        position: absolute;
+        display: flex;
+        margin-top: 3px;
+        transition: width 2s;
+    }
+    
+    &:hover::after{
+        width: 20px;
     }
 `
 
@@ -101,6 +119,25 @@ export const PAboutt = styled.p`
     }
 `
 
+export const h2Ability = styled.h2`
+
+&::after{
+        
+        content: "";
+        width: 7%;
+        height: 3px;
+        background-color: #fca311;
+        position: absolute;
+        display: flex;
+        margin-top: 3px;
+        transition: width 2s;
+    }
+
+    &:hover::after{
+        width: 20px;
+    }
+`
+
 export const containerAbility = styled.section`
     display: flex;
     justify-content: space-between;
@@ -118,6 +155,23 @@ export const containerAbility = styled.section`
             margin-left: 2vw;
         }
     }
+`
+
+export const cardsAbility = styled.div`
+    margin-top: 4vh ;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    align-items: center;
+    text-align: center;
+
+        figure{
+           
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
 `
 
 export const containerimgsAbility = styled.div`

@@ -25,13 +25,13 @@ const About = () => {
                         <S.imgAbout src={perfilNoComputador} alt=""/>
                     </div>
                 <S.textAbout>
-                    <S.h2About>presentation</S.h2About>
+                    <S.h2Presentation>Presentation</S.h2Presentation>
                     <S.PAboutt>My name is Felipe Rutowitsch, I'm 16 years old, I'm in the second year of high school. My dream is to travel and get to know the world, other cultures and their mysteries… My goal is to work with technology, I love to collaborate and learn with the team. I'm currently looking for a vacancy in the front-end developer area, thank you in advance for the opportunity.</S.PAboutt>
                 </S.textAbout>
             </S.ContainerAbout>
             <S.containerAbility>
-                <S.textAbout>
-                    <S.h2About>Ability</S.h2About>
+                <S.cardsAbility>
+                    <S.h2Ability>Ability</S.h2Ability>
                     <S.containerimgsAbility>
                     <S.containerImgAbility>
                         <img src={imgHTML} alt=""/>
@@ -61,7 +61,7 @@ const About = () => {
                         <h4>Git/GitHub</h4>
                     </S.containerImgAbility>
                 </S.containerimgsAbility>
-                </S.textAbout>
+                </S.cardsAbility>
                 <div>
                     <S.imgAbout src={perfilSorrindo} alt=""/>
                 </div>
@@ -71,7 +71,7 @@ const About = () => {
                         <S.imgAbout src={perfilMexendoComputador} alt=""/>
                     </div>
                 <S.textAbout>
-                    <S.h2About>My Story</S.h2About>
+                    <S.h2Story>My Story</S.h2Story>
                     <S.PAboutt>At age 6, out of curiosity, I started playing with mobile devices and enjoyed disassembling and assembling my robotic toys. One day I started to get interested in games, at the time I was 10 years old and at 13 I was already recording videos on YouTube, quickly reaching 1000 followers, in the gaming universe I became known as Pronos Abi. Now I'm in 2022, 16 years old and looking for a vacancy in the front-end developer area in the job market to improve my knowledge more and more.</S.PAboutt>
                 </S.textAbout>
             </S.ContainerAbout>
