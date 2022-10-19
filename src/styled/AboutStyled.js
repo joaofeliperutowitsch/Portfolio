@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body{
     background-color: rgba(0, 0, 0 , 0.9);
+    color: white
 }
 `;
 export const ContainerAboutt = styled.section`

@@ -21,6 +21,10 @@ background-color: #191919;
         font-size: 2rem;
         color: #fca311;
         text-align: center;
+
+        span{
+            color: white;
+        }
     }
 `
 

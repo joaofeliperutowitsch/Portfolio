@@ -79,6 +79,14 @@ export const textBanner = styled.div`
         opacity: 10;
         color: #fca311;
     }
+
+    h4{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
 `
 
 export const containerPerfil = styled.div`
@@ -167,6 +175,7 @@ export const textAbout = styled.div`
 `
 
 export const h2About = styled.h2`
+color: white;
 
 
 &::after{
@@ -189,6 +198,7 @@ export const PAbout = styled.p`
     margin-top: 3vh;
     border-radius: 10px;
     padding: 2rem;
+    color: white;
     width: 80%;
     background-color: rgba(0, 0, 0, 0.3);
     animation: bordercolorabout 20S normal  infinite;
@@ -207,50 +217,98 @@ export const PAbout = styled.p`
     }
 `
 
-export const h2ability = styled.h2`
-    margin-top: 30px;
+export const h2Ability = styled.h2`
+color: white;
 
-    &::after{
+&::after{
         
         content: "";
-        width: 70px;
+        width: 7%;
         height: 3px;
         background-color: #fca311;
         position: absolute;
         display: flex;
-        transition: width 0.5s;
+        margin-top: 3px;
+        transition: width 2s;
     }
 
     &:hover::after{
-        
+        width: 20px;
     }
 `
 
-export const Pability = styled.p`
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+export const containerAbility = styled.section`
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    @media(max-width: 580px){
+        flex-direction: column-reverse;
+        align-items: center;
+        
+
+        img{
+            height: 200px;
+            width: 200px;
+            margin-left: 2vw;
+        }
+    }
+`
+
+export const cardsAbility = styled.div`
     margin-top: 4vh ;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     margin-left: 2vw;
     align-items: center;
     text-align: center;
-    transition: all 5s;
+
+        figure{
+           
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+`
+
+export const containerimgsAbility = styled.div`
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+`
+
+export const containerImgAbility = styled.figure`
+    background-color: #141414;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+    min-width: 236px;
+
+    h4{
+        color: white;
+    }
 
     &:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    animation-duration: 9s;
-    transition: 5s;
-    animation-iteration-count: infinite;
-    animation-name: ability;
-
-        @keyframes ability{
-        0% {color: yellow;}
-        50% {color: red; }
-        100% {color: #49F2CD;}
+        cursor: pointer;
+        transition: 5s;
+        background-color: #fca311;
+        
+        H4{
+            color: #121212;
+            transition: 5.1s;
         }
+    }
+
+    @media(min-width: 500px){
+        margin-left: 30px;
+
     }
 `
 

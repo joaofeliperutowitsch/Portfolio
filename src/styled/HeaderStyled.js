@@ -38,6 +38,7 @@ ul{
 export const navLink = styled(Link)`
     text-decoration: none;
     display: none;
+    color: white;
 
     @media(max-width: 580px){
         display: inline;
@@ -119,6 +120,7 @@ export const  ContaineHeader = styled.div`
         width: 30.7%;
         left: -10;
         height: 84.5vh;
+        color: white;
         margin-top: 63px;
         margin-left: 20px;
     }
@@ -128,6 +130,7 @@ export const HeaderEmulador = styled.section`
     width: 100%;
     margin-left: 2vw;
     align-items: center;
+    color: white;
     display: flex;
     justify-content: space-between;
 `
@@ -154,6 +157,7 @@ export const ulHeader = styled.section`
     justify-content: space-evenly;
     list-style: none;
     position: relative;
+    color: white;
 
     @media(max-width: 580px){
         display: none;
@@ -162,6 +166,7 @@ export const ulHeader = styled.section`
 
 export const navEmulador = styled(Link)`
  text-decoration: none;
+ color: white;
 
 
 &::after{

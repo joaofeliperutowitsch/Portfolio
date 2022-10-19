@@ -4,6 +4,7 @@ import fundoFooter from "../image/fundoFooter.png"
 export const containerFooter = styled.section`
     background-color: #121212;
     margin-top: 80px;
+    color: white;
     width: 100%;
 `
 
@@ -80,11 +81,19 @@ z-index: 10;
     }
 `
 
+export const labelcontact =styled.label`
+    color: white;
+`
+
 export const inputcontact = styled.input`
     font-size: 1.5rem;
     background-color: #191919;
     border-radius: 10px;
     border: solid #fca311 0.5px;
+    color: white;
+    
+
+
     @media(max-width: 420px){
         width: 80vw;
     }
@@ -95,10 +104,31 @@ export const textareaContact = styled.textarea`
     background-color: #191919;
     border-radius: 10px;
     border: solid #fca311 0.5px;
+    color: white;
 
     @media(max-width: 420px){
         width: 80vw;
     }
+`
+export const submit = styled.input`
+    border-radius: 5px;
+        font-size: 1.2rem;
+        margin: auto 5px;
+        border-radius: 5rem;
+        border: transparent;
+        background-color: #fca311;
+        width: 110px;
+        height: 4vh;
+        color: black;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #fca311;
+            transition: 2s;
+            color: white;
+            border: solid #fca311 0.5px;
+            background-color: transparent;
+        }
 `
 
 export const containerCopyright = styled.section`

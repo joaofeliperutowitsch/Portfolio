@@ -52,22 +52,22 @@ const Footer = () => {
             </S.containerInformaçao>
             <S.containerForm onSubmit={sendEmail}>
                     <div>
-                        <label>Name</label>
+                        <S.labelcontact>Name</S.labelcontact>
                         <S.inputcontact type="text" autoFocus className="form-control" required placeholder="Name" name="name"/>
                     </div>
 
                     <div>
-                        <label>Email</label>
+                        <S.labelcontact>Email</S.labelcontact>
                         <S.inputcontact type="email" className="form-control" required placeholder="your email" name="email"/>
                     </div>
 
                     <div>
-                        <label>message</label>
+                        <S.labelcontact>message</S.labelcontact>
                         <S.textareaContact className="form-control" id="" cols="30" rows="8" required placeholder="Your message" name="message"></S.textareaContact>
                     </div>
 
                     <div>
-                        <S.inputcontact type="submit" className="btn btn-info" value="submit"></S.inputcontact>
+                        <S.submit type="submit" className="btn btn-info" value="submit"></S.submit>
                     </div>
             </S.containerForm>
         </S.containerContact>
