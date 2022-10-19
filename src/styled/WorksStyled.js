@@ -66,6 +66,8 @@ export const textProjeto= styled.section`
         margin-top: 10px;
         padding-top: 15px;
         height: 200px;
+        padding-left: 5px;
+        text-align: left;
         background-color: #191919;
         border: solid #fca311 0.5px;
 

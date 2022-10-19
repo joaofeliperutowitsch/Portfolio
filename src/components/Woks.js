@@ -3,6 +3,7 @@ import * as S from "../styled/WorksStyled.js"
 import Hogwarts from "../image/hogwarts.png"
 import PATV from "../image/PATV.png"
 import { GlobalStyle } from "../styled/WorksStyled"
+import OnuODS from "../image/ONU-ODS.png"
 
 
 
@@ -14,11 +15,19 @@ const Woks = () => {
                 <h2>my <span>works</span></h2>
             </div>
             <S.containerProjetos>
-                <S.containerEmbreve>
-                    <S.textEmbreve>
-                        <S.h3Embreve>Em breve</S.h3Embreve>
-                    </S.textEmbreve>
-                </S.containerEmbreve>
+                <S.containerProjeto>
+                    <div>
+                        <img src={OnuODS} alt=""/>
+                    </div>
+                    <S.textProjeto>
+                        <h4>ODS Rio de Janeiro</h4>
+                        <p>The site talks about Sustainable Development Goals, with the cards addressing real problems in the state of Rio de Janeiro where he lives.</p>
+                        <div>
+                            <a href="https://github.com/joaofeliperutowitsch/ODS-do-RIo-de-Janeiro" ><button>Repository</button></a>
+                            <a href="https://ods-rio-de-janeiro.netlify.app/" ><button>Page</button></a>
+                        </div>    
+                    </S.textProjeto>
+                </S.containerProjeto>
                 <S.containerProjeto>
                     <div>
                         <img src={Hogwarts} alt=""/>
@@ -38,13 +47,28 @@ const Woks = () => {
                     </div>
                     <S.textProjeto>
                         <h4>PATV</h4>
-                        <p>The project was made to train a little HTML5 CSS3, after completing module 1 in the Vai na Web course. The idea of ​​the project is to pass an IPTV sales website to consumers. IPTV is a method of transmitting television signals over IP networks.</p>
+                        <p>The project was made to train HTML5 CSS3, after completing module 1 of the Vai na Web course. The idea of the project is to pass an IPTV sales website to consumers. IPTV is a method of transmitting television signals over IP networks.</p>
                         <div>
                             <a href="https://github.com/joaofeliperutowitsch/PATV" ><button>Repository</button></a>
                             <a href="https://joaofeliperutowitsch.github.io/PATV/" ><button>Page</button></a>
                         </div>    
                     </S.textProjeto>
                 </S.containerProjeto>
+                <S.containerEmbreve>
+                    <S.textEmbreve>
+                        <S.h3Embreve>Em breve</S.h3Embreve>
+                    </S.textEmbreve>
+                </S.containerEmbreve>
+                <S.containerEmbreve>
+                    <S.textEmbreve>
+                        <S.h3Embreve>Em breve</S.h3Embreve>
+                    </S.textEmbreve>
+                </S.containerEmbreve>
+                <S.containerEmbreve>
+                    <S.textEmbreve>
+                        <S.h3Embreve>Em breve</S.h3Embreve>
+                    </S.textEmbreve>
+                </S.containerEmbreve>
                 <S.containerEmbreve>
                     <S.textEmbreve>
                         <S.h3Embreve>Em breve</S.h3Embreve>

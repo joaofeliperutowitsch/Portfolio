@@ -83,6 +83,7 @@ export const PAboutt = styled.p`
     border-radius: 10px;
     padding: 2rem;
     width: 80%;
+    text-align: left;
     background-color: rgba(0, 0, 0, 0.2);
     animation: bordercolorabout 20S normal  infinite;
 
