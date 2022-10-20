@@ -64,7 +64,7 @@ export const h2Presentation = styled.h2`
 &::after{
         
         content: "";
-        width: 14%;
+        width: 140px;
         height: 3px;
         background-color: #fca311;
         position: absolute;
@@ -83,7 +83,7 @@ export const h2Story = styled.h2`
 &::after{
         
         content: "";
-        width: 10%;
+        width: 90px;
         height: 3px;
         background-color: #fca311;
         position: absolute;
@@ -125,7 +125,7 @@ export const h2Ability = styled.h2`
 &::after{
         
         content: "";
-        width: 7%;
+        width: 60px;
         height: 3px;
         background-color: #fca311;
         position: absolute;

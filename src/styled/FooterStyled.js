@@ -6,6 +6,7 @@ export const containerFooter = styled.section`
     margin-top: 80px;
     color: white;
     width: 100%;
+        
 `
 
 export const h2Contact = styled.h2`

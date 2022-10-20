@@ -98,7 +98,7 @@ export const containerPerfil = styled.div`
     animation-duration: 9s;
     animation-iteration-count: infinite;
     overflow: hidden;
-    @keyframes breath-animation {
+    @keyframes Perfil-animation {
         0% { height: 150px; width: 10px; opacity: 0.9; }
         50% {  width: 350px; opacity: 0.9; }
         100% { width: 10px; opacity: 0.3; }
@@ -112,7 +112,7 @@ export const containerPerfil = styled.div`
         margin-left: 2px;
     
 
-        @keyframes breath-animation {
+        @keyframes Perfil-animation {
         0% { height: 0px; }
         50% {  height: 200px; opacity: 0.9;}
         100% {  height: 0px; opacity: 0.3; }
@@ -205,14 +205,14 @@ export const PAbout = styled.p`
 
     @keyframes bordercolorabout{
         0%{
-            border: solid yellow 0.5px;
+            border: solid #fca311 0.5px;
         }
         50%{
-            border: solid red 0.5px;
+            border: solid transparent 0.5px;
         }
 
         100%{
-            border: solid #49F2CD 0.5px;
+            border: solid #fca311 0.5px;
         }
     }
 `
@@ -223,7 +223,7 @@ color: white;
 &::after{
         
         content: "";
-        width: 7%;
+        width: 70px;
         height: 3px;
         background-color: #fca311;
         position: absolute;
@@ -242,7 +242,6 @@ export const containerAbility = styled.section`
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: center;
 
     @media(max-width: 580px){
         flex-direction: column-reverse;
@@ -254,6 +253,10 @@ export const containerAbility = styled.section`
             width: 200px;
             margin-left: 2vw;
         }
+    }
+
+    @media(min-width: 1500px){
+        margin-left: 5%;
     }
 `
 
