@@ -94,7 +94,7 @@ export const containerPerfil = styled.div`
     z-index: 10;
     border-radius: 50% 0% 0% 50%;
     height: 80vh;
-    animation-name: breath-animation;
+    animation-name: perfil-animation;
     animation-duration: 9s;
     animation-iteration-count: infinite;
     overflow: hidden;
@@ -187,6 +187,7 @@ color: white;
         background-color: #fca311;
         position: absolute;
         margin-top: 3px;
+    }
 `
 
 export const PAbout = styled.p`
