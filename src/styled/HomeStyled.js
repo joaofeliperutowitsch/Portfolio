@@ -98,7 +98,7 @@ export const containerPerfil = styled.div`
     animation-duration: 9s;
     animation-iteration-count: infinite;
     overflow: hidden;
-    @keyframes Perfil-animation {
+    @keyframes perfil-animation {
         0% { height: 150px; width: 10px; opacity: 0.9; }
         50% {  width: 350px; opacity: 0.9; }
         100% { width: 10px; opacity: 0.3; }
@@ -112,7 +112,7 @@ export const containerPerfil = styled.div`
         margin-left: 2px;
     
 
-        @keyframes Perfil-animation {
+        @keyframes perfil-animation {
         0% { height: 0px; }
         50% {  height: 200px; opacity: 0.9;}
         100% {  height: 0px; opacity: 0.3; }
