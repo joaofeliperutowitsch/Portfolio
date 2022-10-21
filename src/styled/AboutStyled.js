@@ -26,8 +26,9 @@ export const ContainerAbout = styled.section`
         align-items: center;
 
         img{
-            height: 20vh;
-            margin-left: 2vw;
+            height: 200px;
+            width: 200px;
+            object-fit: 100%;
         }
     }
     
