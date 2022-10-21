@@ -181,17 +181,12 @@ color: white;
 &::after{
         
         content: "";
-        width: 70px;
-        height: 3px;
+        width: 3px;
+        height: 20px;
+        margin-left: 10px;
         background-color: #fca311;
         position: absolute;
-        display: flex;
-        transition: width 0.5s;
-    }
-
-    &:hover::after{
-        
-    }
+        margin-top: 3px;
 `
 
 export const PAbout = styled.p`
@@ -223,17 +218,12 @@ color: white;
 &::after{
         
         content: "";
-        width: 70px;
-        height: 3px;
+        width: 3px;
+        height: 20px;
+        margin-left: 10px;
         background-color: #fca311;
         position: absolute;
-        display: flex;
         margin-top: 3px;
-        transition: width 2s;
-    }
-
-    &:hover::after{
-        width: 20px;
     }
 `
 

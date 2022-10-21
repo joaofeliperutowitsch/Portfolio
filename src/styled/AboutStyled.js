@@ -64,17 +64,12 @@ export const h2Presentation = styled.h2`
 &::after{
         
         content: "";
-        width: 140px;
-        height: 3px;
+        width: 3px;
+        height: 20px;
+        margin-left: 10px;
         background-color: #fca311;
         position: absolute;
-        display: flex;
         margin-top: 3px;
-        transition: width 2.5s;
-    }
-    
-    &:hover::after{
-        width: 20px;
     }
 `
 
@@ -83,17 +78,12 @@ export const h2Story = styled.h2`
 &::after{
         
         content: "";
-        width: 90px;
-        height: 3px;
+        width: 3px;
+        height: 20px;
+        margin-left: 10px;
         background-color: #fca311;
         position: absolute;
-        display: flex;
         margin-top: 3px;
-        transition: width 2s;
-    }
-    
-    &:hover::after{
-        width: 20px;
     }
 `
 
@@ -125,18 +115,14 @@ export const h2Ability = styled.h2`
 &::after{
         
         content: "";
-        width: 60px;
-        height: 3px;
+        width: 3px;
+        height: 20px;
+        margin-left: 10px;
         background-color: #fca311;
         position: absolute;
-        display: flex;
         margin-top: 3px;
-        transition: width 2s;
     }
 
-    &:hover::after{
-        width: 20px;
-    }
 `
 
 export const containerAbility = styled.section`
